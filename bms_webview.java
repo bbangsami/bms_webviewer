@@ -59,5 +59,4 @@ public class bms_webview{
 		return key_type;
 	}
 
-	
 }
