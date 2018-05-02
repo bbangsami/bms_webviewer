@@ -3,19 +3,7 @@
 <%
 request.setCharacterEncoding("UTF-8");
 %>
-<%
-/* Github Prototype NOT USE 
-Connection conn = null;
 
-DBConn db = new DBConn();
-conn = db.getConnection();
-
-String cdn_root = "";
-cdn_root = db.CDN_ROOT();
-cdn_root += "bms_webviewer/";
-*/
-
-%>
 <%
 
 String get_file_number = "";
