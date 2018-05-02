@@ -8,7 +8,10 @@ live URL : http://k-bms.com/board/board_append.jsp?board_num=13
 
 
 using jsp(java)
+
 note image : css div background-color
 
+
 i think this source made about march, 2014
+
 this git just prototype edit version.
