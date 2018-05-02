@@ -1,0 +1,289 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bms_webviewer_box{
+	float:left;
+}
+
+.bms_viewer_nowline{
+	width:32px;
+	height: 192px;
+	border-right:#FFF solid 1px;
+	border-left:#FFF solid 1px;
+	background-color:#666;
+	font-size:12px;
+	float:left;
+}
+
+.bms_note{
+	height: 192px;
+	float:left;
+	border-left:#FFF solid 1px;
+}
+
+.bms_note_right{
+	height: 192px;
+	float:left;
+	border-right:#FFF solid 1px;
+}
+
+#notesize_5key{
+	width: 175px;
+	background: url(bms_webviewer/backg_7key_left_sc.png) repeat-y bottom left;
+}
+
+#notesize_7key{
+	width: 225px;
+	background: url(bms_webviewer/backg_7key_left_sc.png) repeat-y bottom left;
+}
+
+#notesize_5key_4beat{
+	width: 175px;
+	background: url(bms_webviewer/backg_7key_left_sc_4beat.png) repeat-y bottom left;
+}
+
+#notesize_7key_4beat{
+	width: 225px;
+	background: url(bms_webviewer/backg_7key_left_sc_4beat.png) repeat-y bottom left;
+}
+
+#notesize_5key_noline{
+	width: 175px;
+	background: url(bms_webviewer/backg_7key_left_sc_noline.png) repeat-y bottom left;
+}
+
+#notesize_7key_noline{
+	width: 225px;
+	background: url(bms_webviewer/backg_7key_left_sc_noline.png) repeat-y bottom left;
+}
+
+#notesize_5key_right_sc{
+	width: 175px;
+	background: url(bms_webviewer/backg_7key_right_sc.png) repeat-y bottom right;
+}
+
+#notesize_7key_right_sc{
+	width: 225px;
+	background: url(bms_webviewer/backg_7key_right_sc.png) repeat-y bottom right;
+}
+
+#notesize_5key_right_sc_4beat{
+	width: 175px;
+	background: url(bms_webviewer/backg_7key_right_sc_4beat.png) repeat-y bottom right;
+}
+
+#notesize_7key_right_sc_4beat{
+	width: 225px;
+	background: url(bms_webviewer/backg_7key_right_sc_4beat.png) repeat-y bottom right;
+}
+
+#notesize_5key_right_sc_noline{
+	width: 175px;
+	background: url(bms_webviewer/backg_7key_right_sc_noline.png) repeat-y bottom right;
+}
+
+#notesize_7key_right_sc_noline{
+	width: 225px;
+	background: url(bms_webviewer/backg_7key_right_sc_noline.png) repeat-y bottom right;
+}
+
+#notesize_9key{
+	width: 225px;
+	background: url(bms_webviewer/backg_9key.png) repeat-y bottom left;
+}
+
+#notesize_9key_4beat{
+	width: 225px;
+	background: url(bms_webviewer/backg_9key_4beat.png) repeat-y bottom left;
+}
+
+#notesize_9key_noline{
+	width: 225px;
+	background: url(bms_webviewer/backg_9key_noline.png) repeat-y bottom left;
+}
+
+
+.line_scr{
+	width: 50px;
+	height: 192px;
+	float: left;
+}
+
+.line_scr_right{
+	width: 50px;
+	height: 192px;
+	float: left;
+}
+
+.note_scr{
+	width: 50px;
+	float: left;
+	border-bottom:#F03 solid 5px;
+}
+
+.note_scr_short{
+	width: 50px;
+	float: left;
+	border-bottom:#F03 solid 1px;
+}
+
+.note_scr_long_continue{
+	width: 50px;
+	float: left;
+}
+
+.long_old_class_scr{
+	width: 50px;
+	float:left;
+	position: absolute;
+}
+
+#note_scr_long_color{
+	background-color:#FF5151;
+	background: -webkit-linear-gradient(left, #483838 ,#f37979 ,#FF5151,#FF5151,#FF5151 ,#f37979, #483838);
+	background: -o-linear-gradient(right, #483838, #f37979 ,#FF5151,#FF5151,#FF5151, #f37979, #483838);
+	background: -moz-linear-gradient(right, #483838, #f37979 ,#FF5151,#FF5151,#FF5151, #f37979, #483838);
+	background: linear-gradient(to right, #483838 , #f37979 ,#FF5151,#FF5151,#FF5151, #f37979, #483838);
+}
+
+.line_whitenote{
+	width: 24px;
+	height: 192px;
+	padding-left: 1px;
+	float: left;
+}
+
+.line_whitenote_right{
+	width: 24px;
+	height: 192px;
+	padding-right: 1px;
+	float: left;
+}
+
+.note_whitenote{
+	width: 24px;
+	float: left;
+	border-bottom:#CCC solid 5px;
+}
+
+.note_whitenote_short{
+	width: 24px;
+	float: left;
+	border-bottom:#CCC solid 1px;
+}
+
+.note_whitenote_long_continue{
+	width: 24px;
+	float: left;
+}
+
+.long_old_class_whitenote{
+	width: 24px;
+	float:left;
+	position: absolute;
+}
+
+#note_whitenote_long_color{
+	background-color:#BBB;
+	background: -webkit-linear-gradient(left, #454545 ,#ededed ,#BBB,#BBB,#BBB ,#ededed, #454545);
+	background: -o-linear-gradient(right, #454545, #ededed ,#BBB,#BBB,#BBB, #ededed, #454545);
+	background: -moz-linear-gradient(right, #454545, #ededed ,#BBB,#BBB,#BBB, #ededed, #454545);
+	background: linear-gradient(to right, #454545 , #ededed ,#BBB,#BBB,#BBB, #ededed, #454545);
+}
+
+.line_bluenote{
+	width: 24px;
+	height: 192px;
+	padding-left: 1px;
+	float: left;
+}
+
+.line_bluenote_right{
+	width: 24px;
+	height: 192px;
+	padding-right: 1px;
+	float: left;
+}
+
+.note_bluenote{
+	width: 24px;
+	float: left;
+	border-bottom:#659ff6 solid 5px;
+}
+
+.note_bluenote_short{
+	width: 24px;
+	float: left;
+	border-bottom:#659ff6 solid 1px;
+}
+
+.note_bluenote_long_continue{
+	width: 24px;
+	float: left;
+}
+
+.long_old_class_bluenote{
+	width: 24px;
+	float:left;
+	position: absolute;
+}
+
+#note_bluenote_long_color{
+	background-color:#5b83cd;
+	background: -webkit-linear-gradient(left, #384448 ,#80abea ,#5b83cd,#5b83cd,#5b83cd ,#80abea, #384448);
+	background: -o-linear-gradient(right, #384448, #80abea ,#5b83cd,#5b83cd,#5b83cd, #80abea, #384448);
+	background: -moz-linear-gradient(right, #384448, #80abea ,#5b83cd,#5b83cd,#5b83cd, #80abea, #384448);
+	background: linear-gradient(to right, #384448 , #80abea ,#5b83cd,#5b83cd,#5b83cd, #80abea, #384448);
+}
+
+.line_bpm_and_stop{
+	width: 25px;
+	height: 192px;
+	float: left;
+}
+
+.note_bpm{
+	width: 25px;
+	height: 11px;
+	font-size:9px;
+	color:#aff7c9;
+	float: left;
+	background: -webkit-linear-gradient(#000008, #000008, #273325, #40603b);
+	background: -o-linear-gradient(#000008, #000008, #273325, #40603b);
+	background: -moz-linear-gradient(#000008, #000008, #273325, #40603b);
+	background: linear-gradient(#000008, #000008, #273325, #40603b);
+	border-bottom:#6cd35e solid 1px;
+}
+
+.note_bpm_absolute_line{
+	width: 25px;
+	height: 192px;
+	float: left;
+	position: absolute;
+}
+
+.note_stop_sequence_absolute_line{
+	width: 105px;
+	height: 192px;
+	float: left;
+	position: absolute;
+}
+
+.note_stop_sequence{
+	width: 105px;
+	height: 12px;
+	font-size:10px;
+	color:#f1e9c9;
+	float: left;
+	border-bottom:#d3c95e dotted 2px;
+}
+
+.note_bpm_empty{
+	width: 25px;
+	float: left;
+}
+
+.note_stop_sequence_empty{
+	width: 105px;
+	float: left;
+}

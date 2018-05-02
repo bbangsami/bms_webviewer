@@ -1,0 +1,63 @@
+#xxx01:배경음
+#xxx02:박자
+
+#xxx04:BGA
+#xxx07:BGA레이어
+#xxx06:미스이미지
+
+#xxx03:BPM변경(16진수) [255이하]
+#xxx08:BPM변경(소숫점과 256이상, 10진수)
+├#BPM01 숫자
+└#BPM02 숫자 등
+
+#xxx09:스톱시간(10진수)
+├#STOP01 12
+└#STOP02 16 등
+
+#xxx16:스크
+#xxx11:1번키
+#xxx12:2번키
+#xxx13:3번키
+#xxx14:4번키
+#xxx15:5번키
+#xxx18:6번키
+#xxx19:7번키
+
+
+------실제 적용할것-----
+#xxx02:박자
+
+#xxx03:BPM변경(16진수) [255이하]
+#xxx08:BPM변경(소숫점과 256이상, 10진수)
+├#BPM01 숫자
+└#BPM02 숫자 등
+
+#xxx09:스톱시간(10진수)
+├#STOP01 12
+└#STOP02 16 등
+
+#xxx16:스크
+#xxx11:1번키
+#xxx12:2번키
+#xxx13:3번키
+#xxx14:4번키
+#xxx15:5번키
+#xxx18:6번키
+#xxx19:7번키
+
+<%=label_player%><br>
+<%=label_genre%><br>
+<%=label_title%><br>
+<%=label_artist%><br>
+<%=label_bpm%><br>
+<%=label_playlevel%><br>
+<%=label_rank%><br>
+<%=label_totals%><br>
+<%=label_difficulty%><br>
+<%=label_subartist%><br>
+<%=label_lnobj%><br>
+<%=Float.toString(float_bpm_change[0])%><br>
+<%=Integer.toString(int_stoptime[0])%><br>
+<% for(int i=0; i<100 ; i++){ %>
+	<%=main_1p_sc[i]%><br>
+<% } %>
