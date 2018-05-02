@@ -3,7 +3,6 @@
 <%
 request.setCharacterEncoding("UTF-8");
 %>
-
 <%
 /* Github Prototype NOT USE 
 Connection conn = null;
@@ -17,7 +16,6 @@ cdn_root += "bms_webviewer/";
 */
 
 %>
-
 <%
 
 String get_file_number = "";
